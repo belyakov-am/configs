@@ -1,4 +1,12 @@
-### Tools
+## Tools
+
+### Cargo
+Install rust ([docs](https://www.rust-lang.org/tools/install))
+```shell
+cargo install eza
+```
+
+### Brew
 ```shell
 brew install neovim
 brew install starship
