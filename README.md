@@ -15,3 +15,6 @@ brew tap homebrew/cask-fonts && brew install --cask font-fira-code-nerd-font
 brew install lazygit
 brew install ripgrep
 ```
+
+### Copilot
+[Neovim copilot docs](https://github.com/github/copilot.vim?tab=readme-ov-file#getting-started)
