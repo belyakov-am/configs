@@ -10,6 +10,7 @@ cargo install eza
 ```shell
 brew install neovim
 brew install stylua
+brew install markdownlint-cli
 brew install starship
 brew install tmux
 brew tap homebrew/cask-fonts && brew install --cask font-fira-code-nerd-font
