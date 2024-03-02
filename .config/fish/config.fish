@@ -51,10 +51,6 @@ fish_add_path $HOME/.yarn/bin
 
 # ------------------------------------------------------------------------------
 # Prompt/shell initialization.
-function fish_prompt
-    printf '%s%s%s> ' (set_color $fish_color_cwd) (prompt_pwd) (set_color normal)
-end
-
 
 # `starship`, must be close to the end.
 if type -q starship
