@@ -1,3 +1,5 @@
+right_format = """$time"""
+
 [directory]
 fish_style_pwd_dir_length = 1 
 
@@ -29,3 +31,7 @@ modified = "!${count}"
 staged = "+${count}"
 renamed = "»${count}"
 deleted = "✘${count}"
+
+[time]
+disabled = false
+time_format = "%d/%m/%y %H:%M:%S"
