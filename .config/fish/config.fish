@@ -52,6 +52,12 @@ fish_add_path $HOME/.yarn/bin
 # ------------------------------------------------------------------------------
 # Prompt/shell initialization.
 
+# Better shell history.
+atuin init fish --disable-up-arrow | source
+
+# Better `cd`.
+zoxide init fish | source
+
 # `starship`, must be close to the end.
 if type -q starship
     starship init fish | source
